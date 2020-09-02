@@ -1,0 +1,25 @@
+package com.learning.basics.Springin5steps;
+
+public class BinarySearchImp {
+
+	//sort
+	private SortAlgorithm SortAlgorithm;
+
+	public BinarySearchImp(com.learning.basics.Springin5steps.SortAlgorithm sortAlgorithm) {
+		super();
+		SortAlgorithm = sortAlgorithm;
+	}
+	
+	
+	public int BinarySearch(int arr[], int numberToSearch)
+	{
+		int sortedNumbers[] = SortAlgorithm.sort(arr);
+		System.out.println(sortedNumbers);
+		return 3;
+	}
+	
+	
+	//search
+	
+	
+}

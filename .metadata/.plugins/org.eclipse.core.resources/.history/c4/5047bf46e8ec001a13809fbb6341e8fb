@@ -1,0 +1,33 @@
+package com.learning.basics.Springin5steps;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class BinarySearchImp {
+
+	//sort
+	@Autowired
+	private SortAlgorithm QuickSort;
+
+	
+	/*public BinarySearchImp(com.learning.basics.Springin5steps.SortAlgorithm sortAlgorithm) {
+		super();
+		SortAlgorithm = sortAlgorithm;
+	}*/
+	
+	
+	public int BinarySearch(int arr[], int numberToSearch)
+	{
+		int sortedNumbers[] = QuickSort.sort(arr);
+		System.out.println("In binary search method"+sortedNumbers);
+		return 3;
+	}
+
+
+	
+	
+	//search
+	
+	
+}

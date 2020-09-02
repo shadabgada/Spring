@@ -1,0 +1,24 @@
+package com.learning.basics.Springin5steps;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class BinarySearchImp {
+
+	//sort
+	private SortAlgorithm SortAlgorithm;
+
+
+	
+	public int BinarySearch(int arr[], int numberToSearch)
+	{
+		int sortedNumbers[] = SortAlgorithm.sort(arr);
+		System.out.println("In binary search method"+sortedNumbers);
+		return 3;
+	}
+	
+	
+	//search
+	
+	
+}

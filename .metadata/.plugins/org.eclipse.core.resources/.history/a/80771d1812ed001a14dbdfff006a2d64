@@ -1,0 +1,7 @@
+package com.learning.basics.scope;
+
+public class JdbcConnection {
+	
+	public JdbcConnection()
+	{}
+}
