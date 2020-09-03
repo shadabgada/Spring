@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+  <bean id="xmlJdbcConnection" class="com.spring.XML.XmlJdbcConnection">
+    <!-- collaborators and configuration for this bean go here -->
+  </bean>
+  
+  
+   <bean id="xmlPersonDAO" class="com.spring.XML.XmlPersonDAO">
+    <!-- collaborators and configuration for this bean go here -->
+		<property name="xmlJdbcConnection" ref="xmlJdbcConnection"></property>
+  </bean>
+
+
+
+  <!-- more bean definitions go here -->
+
+</beans>
