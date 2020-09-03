@@ -2,8 +2,11 @@
 
 ## Relevant code is present in below packages
 
-### com.spring.SpringConcepts
-- after removing SpringBoot dependcies
+### Spring-in-5-steps in 'latest' branch
+- com.learning.basics.Springin5steps => qualifer, autowiring
+- com.learning.basics.scope => different scopes in spring
 
-### com.spring.XML
-- related to spring using xml
+### SpringConcepts
+- com.spring.SpringConcepts => after removing SpringBoot dependencies
+- com.spring.XML => related to spring using xml
+- com.spring.applicationProperties => reading properties file
