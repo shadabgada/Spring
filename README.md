@@ -10,3 +10,9 @@
 - com.spring.SpringConcepts => after removing SpringBoot dependencies
 - com.spring.XML => related to spring using xml
 - com.spring.applicationProperties => reading properties file
+
+###  JUnit
+- /src => com.shadab.junit. (code)
+- /test => com.shadab.junit. (unit tests)
+
+### Mockito
