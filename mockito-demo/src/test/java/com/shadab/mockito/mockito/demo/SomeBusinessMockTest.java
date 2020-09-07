@@ -6,6 +6,8 @@ import org.junit.Test;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+//MOCK TEST
+
 public class SomeBusinessMockTest {
 	@Test
 	public void findGreatestNumberTest()
