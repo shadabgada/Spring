@@ -12,7 +12,7 @@ import org.mockito.junit.*;
 import static org.mockito.Mockito.when;
 
 //MOCK TEST
-
+//Need to add below line while using mockito annotations
 @RunWith(MockitoJUnitRunner.class)
 public class SomeBusinessMockAnnotationTest {
 	@Mock

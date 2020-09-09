@@ -28,6 +28,8 @@ public class ListTest {
 	@Test
 	public void returnOnSpecificIndexCall()
 	{
+		//Without @Mock annotations	=>	ListMock listMock = mock(List.class)
+
 		when(listMock.get(10)).thenReturn(50);
 		assertEquals(50,listMock.get(10));
 		assertEquals(null,listMock.get(15));

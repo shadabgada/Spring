@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-//MOCK TEST
+//MOCK TEST without annotations
 
 public class SomeBusinessMockTest {
 	@Test
