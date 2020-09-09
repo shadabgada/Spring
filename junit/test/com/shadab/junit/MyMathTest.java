@@ -27,6 +27,11 @@ public class MyMathTest {
 	{
 		System.out.println("in test method");
 		assertEquals(3,myMath.sum(new int[] {3}));
+		
+		//assertTrue(condition);
+		//assertFalse(condition);
+		//assertArraysEqual(expected,actual);
+		
 	}
 	
 	@AfterClass
