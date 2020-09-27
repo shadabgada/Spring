@@ -14,7 +14,7 @@ public class AroundAopAspect {
 
     //It is used to operations at various stages(i.e before, after,etc)
 
-    @Around(value="execution(* com.example.SpringAOP.business.*.*(..))")
+    @Around(value="com.example.SpringAOP.aspect.CommonJoinPointConfig.BusinessLayerExecution")
     public void timeCalculation(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         long startTime = System.currentTimeMillis();
         proceedingJoinPoint.proceed();
