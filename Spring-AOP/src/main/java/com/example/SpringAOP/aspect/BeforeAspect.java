@@ -15,9 +15,11 @@ public class BeforeAspect {
 
     //execution(* package.*.*(..))
     // execution(any_return_type packege.any_class.any_return_type and any no of parameters)
-
     @Before("execution(* com.example.SpringAOP.business.*.*(..))")
     public void before(JoinPoint jointPoint){
+        //print => check for user access
+        //print => allowed access for {}
+
         logger.info("Intecepted method calls {}",jointPoint);
     }
 }
