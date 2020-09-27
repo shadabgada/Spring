@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="F:\courses\Java\Spring\Spring Projects\Spring-Unittest"/>
 			<item value="F:\courses\Java\Spring\Spring Projects\mockito-demo"/>
 			<item value="F:\courses\Java\Spring\Spring Projects\SpringConcepts"/>
 			<item value="F:\courses\Java\Spring\Spring Projects\Spring-in-5-steps"/>
